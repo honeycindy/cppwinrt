@@ -1,4 +1,6 @@
 # The C++/WinRT language projection
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhoneycindy%2Fcppwinrt.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhoneycindy%2Fcppwinrt?ref=badge_shield)
+
 
 C++/WinRT is an entirely standard C++ language projection for Windows Runtime (WinRT) APIs, implemented as a header-file-based library, and designed to provide you with first-class access to the modern Windows API. With C++/WinRT, you can author and consume Windows Runtime APIs using any standards-compliant C++17 compiler.
 
@@ -34,3 +36,7 @@ a dev command prompt at the root of the repo _after_ following the above build i
 * Run `build_prior_projection.cmd` in the dev command prompt as well
 * Run `prepare_versionless_diffs.cmd` which removes version stamps on both current and prior projection
 * Use a directory-level differencing tool to compare `_build\$(arch)\$(flavor)\winrt` and `_reference\$(arch)\$(flavor)\winrt`
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhoneycindy%2Fcppwinrt.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhoneycindy%2Fcppwinrt?ref=badge_large)
